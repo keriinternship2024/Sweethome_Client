@@ -1,0 +1,100 @@
+/* home-filter */
+.home-filter__label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+.home-filter__arrows{
+    padding: 8px 12px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+}
+
+/* btn */
+.home-filter__btn {
+    background-color: #eaecf0;
+    padding: 0 16px;
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    margin: 5px 5px;
+    /* width: 135px; */
+}
+.btn--active {
+    background-color: #ffc803;
+}
+
+.portfolio__item {
+    padding: 10px 0.5rem;
+    display: flex;
+    border: 1px solid #d0d5dd;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.portfolio__item .item__content {
+    width: 330px;
+    padding: 1rem;
+    /* border: 0.5px solid #eaecf0; */
+    border-top: none;
+    gap: 0.5rem;
+}
+.content__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__place{
+    font-family: Inter-Bold;
+    letter-spacing: 0.5px;
+}
+
+.portfolio__item .item__content .content__name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__item .item__content .content__name p {
+    font-family: Inter-Bold;
+    letter-spacing: 0.5px;
+}
+.portfolio__item .item__content .content__name span {
+    font-family: Inter-Bold;
+    letter-spacing: 0.5px;
+}
+.portfolio__item .item__content .content__name img {
+    width: 24px;
+    height: 24px;
+}
+.portfolio__item .item__content .content__description .description__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio__item .item__content .content__description .description__top span {
+    font-family: Inter-SemiBold;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+.portfolio__item .item__content .content__description .description__top p {
+    font-family: Inter-Light;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+.portfolio__item .item__content .content__description .description__bottom span {
+    font-family: Inter-SemiBold;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+.portfolio__item .item__content .content__description .description__bottom p {
+    font-family: Inter-Light;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+.description__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

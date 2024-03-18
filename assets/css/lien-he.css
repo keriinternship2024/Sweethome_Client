@@ -1,0 +1,15 @@
+.container-form__content{
+    margin: 10px 0;
+
+}
+.input-form{
+    padding: 2px 16px;
+    border: 1px solid #d0d5dd;
+    max-width: 371px;
+}
+.title{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 10px;
+}

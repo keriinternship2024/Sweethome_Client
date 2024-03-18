@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Home</title>
+    <link rel="shortcut icon" href="../images/avatarSH.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/body.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/bang-khoi-luong.css">
+    <link rel="stylesheet" href="../assets/css/tuyen-dung.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="searchIcon" style="display: none;">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../chunha/trang-chu-chu-nha.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trang-chu-nha-thau.html">Nhà thầu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../manhinhchung/trang-chu-man-hinh-chung.html">Về chúng tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../nhathau/bang-khoi-luong.html">Trợ giúp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog Kiến thức</a>
+                    </li>
+                    <li class="nav-item itemMobile" style="display: none;">
+                        <a class="nav-link" href="#">
+                            <a href="../manhinhchung/dang-nhap.html">Đăng nhập</a>
+                            /
+                            <a href="../manhinhchung/dang-ky.html">Đăng ký</a>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 mr-0">
+                    <div class="search">
+                        <div class="search__text">
+                            Tìm kiếm
+                        </div>
+                        <div class="search__icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="more__icon">
+                            <i class="fa-regular fa-bell"></i>
+                            <span>3</span>
+                        </div>
+                        <div class="more__icon">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>3</span>
+                        </div>
+                        <div class="more__icon">
+                            <a href="../manhinhchung/dang-nhap.html"><i class="fa-solid fa-person"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- Breadcrumb -->
+        <section class="breadcrumb fixBreadcrumb">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Tuyển dụng</li>
+                </ol>
+            </nav>
+        </section>
+       
+       <div class="col-lg-12 col-md-12 col-12">
+        <div class="home-filter__label">
+            <div class="home-filter__result">
+                Hơn 2000 công việc đang chờ bạn
+            </div>
+            
+            
+        </div>
+        <div class="home-filter hide-on-mobile-tablet" style="margin: 10px; padding: 6px 0; ">
+            <nav class="nav-search" style="margin: 30px 0;  display: flex; align-items: center;">
+                <form style="display: flex;  border: 1px solid #d0d5dd; border-radius: 8px;  box-shadow: 1px 1px 1px 1px #00000036; height: 40px; align-items: center; margin-right: 5px;">
+                    <input class="form-control mr-sm-2" style="border: none;" type="search" placeholder="Tìm kiếm chủ đề" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" style="border: none; color: #000;" type="submit">
+                        <i class="fas fa-search"></i>
+                      </button>
+                </form>
+                <button class="home-filter__btn ">
+                    Kho vận 
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <button class="home-filter__btn">
+                    Địa điểm làm việc
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <button class="home-filter__btn btn--active">
+                    Tìm việc
+                </button>
+            </nav>
+            
+            
+            <button class="home-filter__btn">
+                Bộ lọc
+                <i class="fas fa-filter"></i>
+            </button> 
+            <button class="home-filter__btn">
+                Hình thức làm việc
+                <i class="fas fa-chevron-down"></i>
+            </button> 
+            <button class="home-filter__btn">
+                Cấp bậc
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <button class="home-filter__btn">
+                Kinh nghiệm
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <button class="home-filter__btn">
+                Mức lương
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <button class="home-filter__btn">
+                Việc làm gần bạn
+            </button> 
+        </div>
+        <div class="home-filter__label">
+            <div class="home-filter__result">
+                Có 136 kết quả công việc kho vận
+            </div>
+            <div class="home-filter__list" style="display: flex; gap: 8px; align-items: center;">
+                <div class="home-filter__arrows">
+                    Hiển thị theo
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="home-filter__item">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            
+        </div>
+        <div class="home-filter hide-on-mobile-tablet" style="margin: 10px; padding: 6px 0; border-bottom: 1px solid #d0d5dd;">
+            <button class="home-filter__btn btn--active">Thi công
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="home-filter__btn btn--active">
+                Sửa chữa
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="home-filter__btn">
+                Cầu đường
+            </button>
+            <button class="home-filter__btn">
+                Thoát nước
+            </button>
+            <button class="home-filter__btn">
+                Cầu đường
+            </button> 
+        </div>
+        <div class="home-product">
+            <div class="row sm-gutter">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px; color: #ffc803;">Ứng tuyển</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px; color: #ffc803;">Ứng tuyển</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px; color: #ffc803;">Ứng tuyển</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px; color: #ffc803;">Ứng tuyển</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px; color: #ffc803;">Ứng tuyển</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px; color: #ffc803;">Ứng tuyển</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px; color: #ffc803;">Ứng tuyển</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px; color: #ffc803;">Ứng tuyển</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px;">Đã hết hạn</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px;">Đã hết hạn</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px;">Đã hết hạn</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio__item">
+                        <div class="item__image">
+                            <img src="../images/image-tuyen-dung.png" alt="Image Relative Post">
+                        </div>
+                        <div class="item__content">
+                            <div class="content__title">
+                                <div class="content__name">
+                                    <span>Nhân viên vẽ thi công 3D</span>
+                                    
+                                </div>
+                                <div class="verify" style="margin-left: 10px;">
+                                    <div>
+                                        <img src="../images/verified-user.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="content__description">
+                                <div class="description__top">
+                                    <p>
+                                        Hạn nộp: <span>23/11/2023</span>
+                                    </p>
+                                    
+                                </div>
+                                <div class="content__place">
+                                    Tp.Hồ Chí Minh Từ 10-20 triệu
+                                </div>
+                                
+                                <div class="description__bottom">
+                                    
+                                    <span>Đăng tin 1 giờ trước</span>
+                                    <div style="font-size: 14px;">Đã hết hạn</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer__content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 description">
+                        <div class="description__logo">
+                            <img src="../images/logo.png" alt="Logo">
+                        </div>
+                        <div class="description__text">
+                            Sweet home thành lập với sứ mệnh kết nối chủ nhà với các nhà thầu tin cậy. Những ngôi nhà
+                            được hoàn thiện như ý bạn là niềm tự hào của chúng tôi.
+                        </div>
+                        <div class="description__post">
+                            <a href="#">Bài viết</a>
+                        </div>
+                        <div class="description__blog">
+                            <a href="#">Blogs</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 rule">
+                        <h3>Quy định - điều khoản</h3>
+                        <a href="#">Giới thiệu công ty</a>
+                        <a href="#">Chính sách bảo mật</a>
+                        <a href="#">Hình thức thanh toán</a>
+                        <a href="#">Tuyển dụng</a>
+                        <a href="#">Điều khoản</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 contact">
+                        <h3>Liên hệ</h3>
+                        <a href="#">Hỗ trợ - Trợ giúp</a>
+                        <a href="#">Góp ý khiếu nại</a>
+                        <a href="#">Câu hỏi thường gặp</a>
+                        <a href="#">Thông báo lỗi</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 support">
+                        <h3>Tổng đài hỗ trợ ( Miễn phí)</h3>
+                        <a href="#">Tư vấn khách hàng: <br><span>00000000</span></a>
+                        <a href="#">Tư vấn nhà thầu: <br><span>00000000</span></a>
+                        <a href="#">Khiếu nại: <br><span>00000000</span></a>
+                        <a href="#">Bảo hành: <br><span>00000000</span></a>
+                    </div>
+
+                    <div class="col-lg-1 col-md-4 col-sm-6 col-6 object">
+                        <h3>Nhà thầu</h3>
+                        <a href="#">Công ty</a>
+                        <a href="#">Tổ đội</a>
+                        <a href="#">Kiến trúc sư</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 social">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <div class="socialMedia">
+                            <div class="social__item">
+                                <img src="../images/zalo.png" alt="Zalo">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/facebook.png" alt="Facebook">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/youtube.png" alt="Youtube">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/tiktok.png" alt="Tiktok">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__description">
+            <img src="../images/copyright.png" alt="Coppy Right">
+            <p>Công ty cổ phần Sweet home. GPDKKD:00000 do sở KH & ĐT TP.HCM cấp từ ngày 00/00/2023. GPMXH: 00/00/000 do
+                Bộ Thông Tin và Truyền Thông cấp ngày 00/00/2023. Địa chỉ: ....................., TP.HCM. ĐỊa chỉ liên
+                hệ và gửi chứng từ..............Điện thoại:00000000. Email: Sweethome@gmail.com.
+                <a href="#">Xem chính sách sử dụng.</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="../assets/popper.min.js"></script>
+    <script src="../assets/jquery.min.js"></script>
+    <script src="../assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bang-khoi-luong.js"></script>
+</body>
+
+</html>

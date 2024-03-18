@@ -1,0 +1,41 @@
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem #d0d5dd;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #d0d5dd;
+    border-color: #d0d5dd;
+}
+.btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #d0d5dd;
+    border-color: #d0d5dd;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #5f5e5e;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+main span {
+    font-family: Inter-Bold;
+    letter-spacing: 0.5px;
+}
+
+.infor-btn{
+    padding: 0 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #eaecf0;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+    margin: 10px 5px;
+}
+.topic--active{
+    background-color: #ffedad;
+}

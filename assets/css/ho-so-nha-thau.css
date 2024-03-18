@@ -1,0 +1,295 @@
+main {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem 0;
+  font-family: Inter-Light;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+main span {
+  font-family: Inter-SemiBold;
+}
+main span.low {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main span.highlight {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  background-color: #FFEF9A;
+  border-radius: 8px;
+}
+main .topic {
+  font-family: Inter-SemiBold;
+  font-size: 1.75rem;
+}
+main .information .banner {
+  position: relative;
+}
+main .information .banner .banner {
+  width: -webkit-fill-available;
+}
+main .information .banner .avatar {
+  position: absolute;
+  left: 70px;
+  bottom: 0;
+  transform: translateY(50%);
+}
+main .information .description {
+  border: 0.5px solid #919191;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .information .description .description__top {
+  margin-left: 14.5rem;
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .information .description .description__top .topic span {
+  display: flex;
+  gap: 0.25rem;
+}
+main .information .description .description__top .topic span .online {
+  width: 1rem;
+  height: 1rem;
+  background-color: #0F0;
+  border-radius: 50%;
+}
+main .information .description .description__top .subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+main .information .description .description__top .subscribe button {
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 200px;
+  padding: 0.25rem 0;
+  color: #FFC803;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main .information .description .description__top .subscribe button:hover {
+  background-color: #FFC803;
+  color: #000;
+}
+main .information .description .description__top .subscribe a {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  text-decoration: underline;
+  color: #4F6C00;
+}
+main .information .description .description__bottom {
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .information .description .description__bottom .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .information .description .description__bottom .content div {
+  display: flex;
+  gap: 0.5rem;
+}
+main .information .description .description__bottom .content div .rate i {
+  color: #FFC803;
+}
+main .register .content {
+  padding: 1rem;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+main .register .content div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+main .introduce .content {
+  padding: 1rem;
+  /* border: 0.5px solid #919191; */
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=ho-so-nha-thau.css.map */
+
+.content__right .content {
+  /* width: 100%;
+  max-width: 510px; */
+  /* border: 0.5px solid #919191; */
+  border-radius: 8px;
+}
+.content__right .content .time p {
+  margin-bottom: 0.5rem;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+.content__right .content .time {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content__right .content .time p span {
+  font-family: Inter-SemiBold;
+  padding: 0.25rem;
+  background-color: #F9F5FF;
+  border-radius: 8px;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+.content__right .content .time p span.since {
+  color: #fff;
+  background-color: red;
+  border-radius: 0;
+}
+.content__right .content .menu {
+  display: flex;
+}
+.content__right .content .menu .menu__button {
+  width: 50%;
+}
+.content__right .content .menu .button--active button {
+  background-color: #FFC803;
+  color: #000;
+  font-family: Inter-SemiBold;
+}
+
+.content__right .content .menu .menu__button button {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+.content__right .content .moreMenu {
+  display: flex;
+}
+/* .content__right .content .moreMenu .menu__button {
+  width: 20%;
+} */
+.content__right .content .moreMenu .menu__button button {
+  /* width: 100%; */
+  padding: 8px;
+  border: none !important;
+  border-radius: 8px;
+  border-top: 0.5px solid #000;
+  border-right: 0.5px solid #000;
+  display: flex;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  margin: 3px;
+
+}
+.content__right .content .moreMenu .menu__button button p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content__right .content .moreMenu .menu__button button i {
+  display: inline-block;
+  margin-left: 0.25rem;
+}
+.content__right .content .moreMenu .menu__button:last-child button {
+  border-right: none;
+}
+
+.content__right .content .moreMenu .button--active button {
+  background-color: #FFC803;
+  color: #000;
+  font-family: Inter-SemiBold;
+}
+.content__right .content .listObject .object {
+  max-width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 0.5px solid #919191;
+  font-size: 0.75rem; */
+}
+.content__right .content .listObject .object .status--active {
+  background-color: #ECFDF3;
+  color: #027A48;
+}
+
+.content__right .content .listObject .object .object__status {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 2px 6px;
+  background-color: #FFEF9A;
+  color: #000;
+  border-radius: 1rem;
+}
+.content__right .content .listObject .object .status--active i {
+  line-height: 1rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+/* 
+.button {
+  margin-top: 1rem;
+}
+
+.button button {
+  width: 100%;
+  font-size: 1rem !important;
+  padding: 1rem 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFC803;
+  color: #000;
+  font-family: Inter-SemiBold;
+} */
+.content .content-left{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.more__icon {
+  height: 40px;
+  padding: 9px;
+  position: relative;
+}
+.more__icon i {
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 1.2rem;
+}
+
+.more__icon span {
+  position: absolute;
+  display: inline-block;
+  /* width: 16px; */
+  text-align: center;
+  line-height: 11px;
+  background-color: red;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 10px;
+  top: 4px;
+  right: -1px;
+  padding: 1px 7px;
+}
+
+.rate i {
+  color: #FFC803;
+}

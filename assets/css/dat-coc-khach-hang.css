@@ -1,0 +1,66 @@
+.listObject .object {
+    max-width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more__icon {
+    height: 40px;
+    padding: 9px;
+    position: relative;
+}
+
+.more__icon i {
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 1.2rem;
+}
+
+.more__icon span {
+    position: absolute;
+    display: inline-block;
+    /* width: 16px; */
+    text-align: center;
+    line-height: 11px;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 10px;
+    top: 4px;
+    right: -1px;
+    padding: 1px 7px;
+}
+
+main span {
+    font-family: Inter-SemiBold;
+}
+
+main .topic {
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.btn-price {
+    display: flex;
+    padding: 12px 16px;
+    border: 1px solid #d0d5dd;
+    align-items: center;
+    border-radius: 8px;
+    width: 348px;
+    height: 68px;
+    background-color: #ffffff;
+}
+
+.btn-price:hover {
+    border-radius: 8px;
+    border: 4px solid #ffc803;
+}
+
+main .introduce .content {
+    padding: 1rem;
+    border: 0.5px solid #d0d5dd;
+    border-radius: 8px;
+}

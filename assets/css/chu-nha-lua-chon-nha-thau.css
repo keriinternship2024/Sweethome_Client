@@ -1,0 +1,297 @@
+main {
+    max-width: 1280px;
+    margin: auto;
+}
+main .overView {
+    padding: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
+}
+
+main span{
+    font-family: Inter-SemiBold;
+    font-size: 0.75rem;
+}
+
+main div.breadcrumb {
+    margin-bottom: 0px;
+}
+
+main div.breadcrumb ol.breadcrumb {
+    margin-bottom: 0px;
+}
+
+main section {
+    margin-bottom: 60px;
+}
+main .overView img {
+    width: auto;
+    height: auto;
+}
+main .overView .content__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main .overView .content__description .name {
+    font-family: Inter-SemiBold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+main .overView .content__description .name img {
+    width: 24px;
+    height: 24px;
+}
+main .overView .content__description .step {
+    display: flex;
+    gap: 0.5rem;
+}
+main .overView .content__description .step span {
+    font-family: Inter-SemiBold;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    background-color: #EAECF0;
+    color: #919191;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+main .overView .content__description .step span.active {
+    background-color: #FFC803;
+    color: #000;
+}
+main .overView .content__description .description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+main .overView .content__description span {
+    font-family: Inter-SemiBold;
+}
+.listObject .object {
+    max-width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.more__icon {
+    height: 40px;
+    padding: 9px;
+    position: relative;
+}
+.more__icon i {
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 1.2rem;
+}
+.more__icon span {
+    position: absolute;
+    display: inline-block;
+    /* width: 16px; */
+    text-align: center;
+    line-height: 11px;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 10px;
+    top: 4px;
+    right: -1px;
+    padding: 1px 7px;
+}
+
+.step {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.step span {
+    font-family: Inter-SemiBold;
+    font-size: 16px;
+    padding: 9px 12px;
+    background-color: #EAECF0;
+    color: #000000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.step span.active {
+    background-color: #FFC803;
+    color: #000;
+}
+
+/*  */
+.topTen__navbar {
+    margin-top: 24px;
+  }
+  .topTen__navbar .row .nav__item {
+    text-align: center;
+    padding: 0px;
+  }
+  .topTen__navbar .row .nav__item button {
+    border: 1px solid #EAECF0;
+    width: 100%;
+    padding: 12px 0px;
+    background-color: #fff;
+    font-family: Inter-SemiBold;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .topTen__navbar .row .nav__item:first-child button {
+    border-right: none;
+    border-radius: 6px 0px 0px 0px;
+  }
+  .topTen__navbar .row .nav__item:last-child button {
+    border-left: none;
+    border-radius: 0px 6px 0px 0px;
+  }
+  .topTen__navbar .row .nav__item--active button {
+    background-color: #4F6C00;
+    color: #fff;
+  }
+/*  */
+.company span {
+    font-family: Inter-Light;
+    font-size: 0.75rem;
+}
+.company {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.25rem;
+    /* max-width: 180px; */
+  }
+  /* .company span {
+    font-family: Inter-Light;
+    font-size: 0.75rem;
+  } */
+  .company .company__left{
+    display: flex;
+    flex-direction: column;
+  }
+.company__left .name{
+    font-family: Inter-SemiBold;
+    display: flex;
+    justify-content: center;
+  }
+  /* .company .company__top {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  } */
+  .content .company__right {
+
+  }
+  .company__right .description {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  }
+  .company__right .description .name {
+    display: flex;
+    align-items: center;
+    font-family: Inter-SemiBold;
+    font-size: 0.875rem;
+  }
+  .company__right .description .price-number{
+    font-family: Inter-SemiBold;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    background-color: #FFEF9A;
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .company .company__middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /* .company .company__left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  } */
+  .company .company__left .rate i {
+    color: #FFC803;
+  }
+
+  .company__bottom .topic{
+    font-size:18px;
+    line-height: 26px;
+    font-family: Inter-SemiBold;
+
+  }
+
+  @media (min-width: 741px) and (max-width: 1024px) {
+    html {
+      font-size: 14px;
+    }
+    main {
+      padding: 0 1rem;
+    }
+    main .overView {
+      gap: 0.5rem;
+    }
+    main .overView .content__description .step {
+      display: none;
+    }
+    main .overView .content__description .description {
+      gap: 0.25rem;
+    }
+    main .overView .content__description .author {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 740px) {
+    html {
+      font-size: 12px;
+    }
+    main {
+      padding: 0.5rem;
+    }
+    main section {
+      margin-bottom: 1rem;
+    }
+    main .overView {
+      gap: 0.5rem;
+    }
+    main .overView img {
+      width: 150px;
+      height: 150px;
+    }
+    main .overView .content__description .step {
+      display: none;
+    }
+    main .overView .content__description .address {
+      display: none;
+    }
+    main .overView .content__description .description {
+      gap: 0.25rem;
+    }
+    main .overView .content__description .author {
+      flex-direction: column;
+    }
+    main .overView .content__description .author span:nth-child(2) {
+      display: none;
+    }
+    main .overView .content__description .author span:nth-child(3) {
+      display: none;
+    }
+    main .list .list__topic {
+      text-align: center;
+    }
+    main .time {
+      flex-direction: column;
+    }
+    main .result .confirm {
+      border: none;
+    }
+    main .result .confirm .confirm__middle {
+      flex-direction: column;
+    }
+  }
